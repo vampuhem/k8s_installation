@@ -4,7 +4,7 @@ sudo apt update -y
 #install docker
 sudo apt install docker.io -y
 sudo apt-get update
-#sudo apt-get install -y apt-transport-https ca-certificates curl
+sudo apt-get install -y apt-transport-https ca-certificates curl
 
 #Download the public signing key for the Kubernetes package repositories.
 sudo mkdir -p -m 755 /etc/apt/keyrings
